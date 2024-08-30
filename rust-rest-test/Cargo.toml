@@ -1,0 +1,23 @@
+[package]
+name = "rust-rest-test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+uuid = { version = "1.10.0", features = ["v4", "fast-rng", "macro-diagnostics"] }
+sqlite3 = "0.24.0"
+axum = "0.7.5"
+serde = { version = "1.0.208", features = ["derive"] }
+rand = "0.8.4"
+log = "0.4.22"
+tower = "0.5.0"
+tower-http = { version = "0.5.2", features = ["cors"] }
+
+
+redis = { version = "0.26.1", features = ["tokio-comp"] }
+# wasm-logger = "0.2.0"
+# yew = { version = "0.21.0", features = ["csr"] }
+# gloo-net = "0.6.0"
+# wasm-bindgen-futures = "0.4"
+
