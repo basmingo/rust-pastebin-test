@@ -1,6 +1,6 @@
 use axum::{
     extract::{self, Path},
-    http::{header::CONTENT_TYPE, Method},
+    http::Method,
     routing::{get, post},
     Json, Router,
 };
